@@ -44,6 +44,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+@font-face {
+  font-family: "Capsuula";
+  src: url("fonts/Capsuula.tff");
+}
+
 *,
 *::before,
 *::after {
@@ -11002,10 +11007,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
+  /* font-family: "Fira Sans", sans-serif; */
+  font-family: "Capsuula";
   color: #495057;
   background: #fff;
   box-sizing: border-box;
+}
+
+.parasiene {
+  font-family: "Parisienne", cursive;
 }
 
 p {
