@@ -11980,6 +11980,46 @@ section.has-bg-img2:after {
   z-index: -1;
 }
 
+section.has-bg-img3 {
+  background: rgba(33, 37, 41, 0.85);
+  position: relative;
+}
+
+section.has-bg-img3:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../../selection/SEKCE/DRESSCODE.JPG);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+section.has-bg-img4 {
+  background: rgba(33, 37, 41, 0.85);
+  position: relative;
+}
+
+section.has-bg-img4:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../../selection/SEKCE/OSTATNI.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 section.has-bg-img.bg-img-1:after {
   background-image: url(../imgs/section.jpg);
 }
