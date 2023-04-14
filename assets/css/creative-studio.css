@@ -12130,4 +12130,8 @@ a::after {
   #game { 
     display: none; 
   } 
+
+  #nadpis-hra { 
+    display: none; 
+  } 
 }

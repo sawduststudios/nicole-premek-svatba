@@ -36,4 +36,5 @@ var detector = new MobileDetect(window.navigator.userAgent);
 if (detector.mobile()) 
 { 
     document.getElementById("game").style.display = "none"; 
+    document.getElementById("nadpis-hra").style.display = "none"; 
 }
