@@ -30,3 +30,10 @@ $(document).ready(function(){
         } 
     });
 }); 
+
+
+var detector = new MobileDetect(window.navigator.userAgent); 
+if (detector.mobile()) 
+{ 
+    document.getElementById("game").style.display = "none"; 
+}

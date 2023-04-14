@@ -12120,3 +12120,14 @@ a::after {
 #party {
   animation: shake 0.2s infinite;
 }
+
+#game {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) { 
+  #game { 
+    display: none; 
+  } 
+}
